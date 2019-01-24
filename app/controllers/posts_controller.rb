@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
    def show
-       @post =
+       @post = Post.find_by
    end
 end
